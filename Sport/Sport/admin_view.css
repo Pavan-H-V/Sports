@@ -1,0 +1,86 @@
+/* General styles for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 36px;
+    color: #2e6da4; /* Blue color for heading */
+    margin-bottom: 20px;
+}
+
+/* Style for smaller heading */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50; /* Green background for table headers */
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9; /* Light background for table rows */
+}
+
+tr:nth-child(even) td {
+    background-color: #f1f1f1; /* Alternate row color */
+}
+
+
+
+/* Style for the logout button */
+button {
+    background-color: #d9534f; /* Red background for the logout button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #c9302c; /* Darker red on hover */
+}

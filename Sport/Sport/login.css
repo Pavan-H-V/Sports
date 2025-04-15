@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    background-image: url('assets/img/login.png');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Heading */
+h1 {
+    color: #ffcc00;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+fieldset {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.3);
+}
+
+/* Labels & Icons */
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Input & Select Fields */
+input, select {
+    width: 95%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 2px solid #ffcc00;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Improved Select Dropdown */
+select {
+    background: #222;
+    color: #ffcc00;
+    cursor: pointer;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+select:hover {
+    background: #333;
+    border-color: #ff5733;
+}
+
+select option {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Button */
+.btn-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #ff5733, #ffcc00);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ffcc00, #ff5733);
+    color: black;
+}
+
+/* Register Link */
+.reg {
+    margin-top: 15px;
+}
+
+.reg a {
+    color: #33e80b;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.reg a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+    h1 {
+        font-size: 22px;
+    }
+
+    input, select, button {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,121 @@
+body {
+    background-image: url(assets/img/background.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.header {
+    font-size: 34px;
+    font-weight: bold;
+    color: #ffd700;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.9);
+}
+
+.sub-header {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #f8f8f8;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.event-title {
+    font-size: 65px;
+    font-weight: bold;
+    color: #ff5733;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.event-title span {
+    color: #ffcc00;
+}
+
+.details {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #00e6e6;
+    font-weight: 500;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.date {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffcc00;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.qr-code {
+    background: rgba(46, 40, 40, 0.2);
+    padding: 20px;
+    margin: 25px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.scan-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff8800;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 12px auto;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 12px rgba(255, 102, 0, 0.7);
+}
+
+.btn:hover {
+    background-color: #ff4500;
+    transform: scale(1.1);
+    box-shadow: 0px 7px 18px rgba(255, 69, 0, 0.9);
+}
+
+.footer {
+    margin-top: 3vh;
+}
+
+.foot{
+    height: 3in;
+    width: 100%;
+    background-color: #020035;
+}
+
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: #f02602;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fff700;
+    text-decoration: underline;
+}

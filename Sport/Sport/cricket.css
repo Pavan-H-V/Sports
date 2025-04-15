@@ -1,0 +1,150 @@
+/* Reset & Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #1b1b2f, #16213e); /* Dark blue gradient */
+    color: #fff;
+    line-height: 1.8;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background-color: #0f3460;
+    color: #ffcc29;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* Sections */
+section {
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Cricket Rules */
+.cricket {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.cricket h2 {
+    font-size: 2.2rem;
+    color: #ffcc29;
+    margin-bottom: 15px;
+}
+
+.cricket ul {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+}
+
+.cricket li {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+.rule {
+    font-weight: bold;
+    color: #f8d210; /* Yellow for rule numbers */
+}
+
+/* Note Section */
+.note {
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.note h2 {
+    font-size: 2.2rem;
+    color: #ff6f61;
+}
+
+.note ol {
+    list-style: decimal;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.note ol li {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+/* Button Styling */
+.btn {
+    padding: 15px 40px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+.contact {
+    background-color: #0f3460;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 2.2rem;
+    color: #4fc3f7;
+}
+
+.contact p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    .header h1, .cricket h2, .note h2, .contact h2 {
+        font-size: 2rem;
+    }
+
+    .cricket li, .note ol li, .contact p {
+        font-size: 1.1rem;
+    }
+
+    .btn {
+        padding: 12px 30px;
+    }
+}
