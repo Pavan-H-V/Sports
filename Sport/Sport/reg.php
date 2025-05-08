@@ -88,7 +88,7 @@
                 if ($stmt->execute()) {
                     echo "<script>alert('Registration successful! Redirecting...');</script>";
                     // Redirect based on sport selection
-                    echo "<script>setTimeout(function(){ window.location.href = '" . strtolower($sports) . ".html'; }, 2000);</script>";
+                    header("Location: login.html");
                 } else {
                     echo "<div class='error'>Error: " . $stmt->error . "</div>";
                 }
